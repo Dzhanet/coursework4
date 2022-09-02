@@ -1,0 +1,31 @@
+###
+
+POST http://127.0.0.1:25000/auth/register/
+Content-Type: application/json
+Authorization: Bearer JWT_token
+
+{
+  "email": "2",
+  "password": "2"
+}
+###
+
+POST http://127.0.0.1:25000/auth/login/
+Content-Type: application/json
+Authorization: Bearer JWT_token
+
+{
+  "email": "12",
+  "password": "12"
+}
+
+###
+PUT http://127.0.0.1:25000/auth/login/
+Content-Type: application/json
+Authorization: Bearer
+
+{
+  "refresh_token": ""
+}
+
+###
